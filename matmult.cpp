@@ -271,7 +271,7 @@ int main(int argc,char** argv) {
 		outfile.open(out1.c_str());
 		/*Final thread that is main function gives final output*/
 		// bounded wait
-		while (curr_i < _m);
+		//while (curr_i < _m);
 		cout << "\nThe resultant matrix is - \n";
 		for (int i = 0; i < m; i++) {
 			for (int j = 0; j < p; j++) {
